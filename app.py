@@ -9,7 +9,7 @@ st.title("Student Marks Analyzer")
 st.write("Enter your marks and analyze your performance.")
 
 # Input section
-name = st.text_input("Student name", "Joel")
+name = st.text_input("Student name", "Hello")
 
 maths = st.number_input("Maths", min_value=0, max_value=100, value=85)
 physics = st.number_input("Physics", min_value=0, max_value=100, value=80)
